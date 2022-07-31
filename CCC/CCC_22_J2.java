@@ -10,14 +10,14 @@ public class CCC_22_J2 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		PrintStream out = System.out;
 		
-		byte goldcounter = 0;
-		byte pln = Byte.parseByte(br.readLine());
-		short totals = 0;
-		for (short c=0; c<pln; c++) {
-			short score = (short) (Short.parseShort(br.readLine())*5);
-			short foul = (short) (Short.parseShort(br.readLine())*3);
+		short goldcounter = 0;
+		int pln = Integer.parseInt(br.readLine());
+		for (int c=0; c<pln; c++) {
+			int totals = 0;
+			int score = Integer.parseInt(br.readLine())*5;
+			int foul = Integer.parseInt(br.readLine())*3;
 			
-			totals = (short) (totals+score-foul);
+			totals = totals+score-foul;
 			
 			if (totals>40) {
 				goldcounter ++;
