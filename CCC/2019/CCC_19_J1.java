@@ -1,7 +1,7 @@
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         byte apple3 = Byte.parseByte(br.readLine);
