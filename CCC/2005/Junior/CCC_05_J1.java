@@ -1,17 +1,16 @@
 import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.math.RoundingMode;
 import java.text.DecimalFormat;
-public class Main {
+public class CCC_05_J1 {
 	private static final DecimalFormat df = new DecimalFormat("0.00");
 	public static void main(String[] args) throws IOException {
 	      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	      short day = Short.parseShort(br.readLine);
-	      short eve = Short.parseShort(br.readLine);
-	      short end = Short.parseShort(br.readLine);
-	      short dayuseA = day-100;
-	      short dayuseB = day-250;
+	      short day = Short.parseShort(br.readLine());
+	      short eve = Short.parseShort(br.readLine());
+	      short end = Short.parseShort(br.readLine());
+	      int dayuseA = day-100;
+	      int dayuseB = day-250;
 	      if (dayuseA<0){
 		dayuseA=0;
 	      }
@@ -36,3 +35,4 @@ public class Main {
 	      }
     }
 }
+
