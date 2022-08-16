@@ -7,9 +7,11 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		@SuppressWarnings("unused")
-		String[] jc = br.readLine().split(" ");
+		String jc = br.readLine();
 		
 		int num = Integer.parseInt(br.readLine());
 		System.out.println(num);
+	    
+	    	//trick in the question: John Cena, the world's |UNBEATABLE| fighter
     }
 }
