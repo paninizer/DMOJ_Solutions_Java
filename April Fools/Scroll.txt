@@ -1,1 +1,3 @@
 "0"
+
+//a non-empty output will suffice, used text file here because I'm lazy like that
