@@ -3,10 +3,13 @@ import java.io.*;
 public class CCC_04_J4 {
 	
 	static char shift(char a, char b) {
+		//using ascii table, you can see 65 stands for 'A'
 		int c = a+(b%65);
 		
+		//keeps in A-Z range
 		if (c>90) c-=26;
 		
+		//caste to char
 		return (char) c;
 		
 	}
@@ -18,7 +21,7 @@ public class CCC_04_J4 {
 		String key = br.readLine();
 		int l = key.length();
 		
-		String encrypt = br.readLine().replaceAll("[^A-Za-z]+", "");
+		String encrypt = br.readLine().replaceAll("[^A-Za-z]+", ""); //removes all non letters
 
 		int i=0;
 		int j=0;
