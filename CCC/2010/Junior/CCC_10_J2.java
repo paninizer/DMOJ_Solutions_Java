@@ -20,14 +20,14 @@ public class CCC_10_J2 {
 
 		for (short i=0; i<s; i++) {
 			if(i%a==0&&i>=a) {
-	            backward +=b;
-	        }
-	        else {
-	        	forward +=1;
-	        }
-	        if(forward+backward>=s) {
-	        	break;
-	        }
+	            		backward +=b;
+	        	}
+	        	else {
+	        		forward +=1;
+	        	}
+	        	if(forward+backward>=s) {
+	        		break;
+	        	}
 		}
 		sum1 = forward-backward;
 		
@@ -35,14 +35,14 @@ public class CCC_10_J2 {
 		backward=0;
 		for (short i=0; i<s; i++) {
 			if(i%c==0&&i>=c) {
-	            backward +=d;
-	        }
-	        else {
-	        	forward +=1;
-	        }
-	        if(forward+backward>=s) {
-	        	break;
-	        }
+	            		backward +=d;
+	        	}
+	        	else {
+	        		forward +=1;
+	        	}
+	        	if(forward+backward>=s) {
+	        		break;
+	        	}
 		}
 		sum2 = forward-backward;		
 		
